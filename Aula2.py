@@ -2,13 +2,13 @@
 import multiprocessing as mp
 import numpy as np
 from time import time
-import CDLE.utils as utils
+import utils as utils
 
 # %%
 
 r = 10
-m = 100
-n = 100
+m = 1000
+n = 10
 
 np.random.seed(100)
 arr = np.random.randint(0, r, size=[m,n])
